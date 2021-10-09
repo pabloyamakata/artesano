@@ -1,0 +1,157 @@
+header, section, footer {
+    box-sizing: border-box;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    height: 60px;
+    background-color: #2cbbdb;
+}
+
+#logo_header {
+    width: 230px;
+    height: 60px;
+    background-color: #4ef261;
+    float: left;
+}
+
+#menu_header {
+    width: 400px;
+    height: 60px;
+    background-color: #4ef261;
+    float: right;
+}
+
+#inicio {
+    height: 600px;
+    padding-top: 100px;
+    background-color: #db6c2c;
+}
+
+#txt_inicio {
+    width: 700px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #eded4c;
+}
+
+#sobre_mi {
+    height: 960px;
+}
+
+#sobre_mi div {
+    width: 480px;
+    height: 320px;
+}
+
+.caja_txt {
+    background-color: #000;
+    float: left;
+}
+
+.caja_img {
+    background-color: #eee;
+    float: left;
+}
+
+.productos {
+    height: 1550px;
+    padding-top: 60px;
+}
+
+.titulos {
+    width: 450px;
+    height: 60px;
+    background-color: #4ef261;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#artesanias {
+    background-color: #7991b5;
+}
+
+.img_art {
+    width: 280px;
+    height: 280px;
+    margin-top: 60px;
+    margin-left: 40px;
+    background-color: #b33941;
+    float: left;
+}
+
+.txt_art {
+    width: 600px;
+    height: 280px;
+    margin-top: 60px;
+    background-color: #5e69e6;
+    float: left;
+}
+
+#tejidos {
+    background-color: #e37a24;
+}
+
+.img_tej {
+    width: 280px;
+    height: 280px;
+    margin-top: 60px;
+    margin-right: 40px;
+    background-color: #b33941;
+    float: right;
+}
+
+.txt_tej {
+    width: 600px;
+    height: 280px;
+    margin-top: 60px;
+    background-color: #5e69e6;
+    float: right;
+}
+
+#pinturas {
+    background-color: #ad17b0;
+}
+
+.img_pint {
+    width: 280px;
+    height: 280px;
+    margin-top: 60px;
+    margin-left: 40px;
+    background-color: #b33941;
+    float: left;
+}
+
+.txt_pint {
+    width: 600px;
+    height: 280px;
+    margin-top: 60px;
+    background-color: #5e69e6;
+    float: left;
+}
+
+footer {
+    height: 200px;
+    padding-top: 40px;
+    background-color: #000;
+}
+
+#contacto {
+    width: 300px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #86e67c;
+}
+
+#legal {
+    width: 900px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #d6532b;
+}
+
