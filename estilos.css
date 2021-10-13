@@ -1,3 +1,10 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
 header, section, footer {
     box-sizing: border-box;
     width: 960px;
@@ -6,6 +13,8 @@ header, section, footer {
 }
 
 header {
+    position: sticky;
+    top: 0;
     height: 60px;
     background-color: #2cbbdb;
 }
@@ -18,14 +27,40 @@ header {
 }
 
 #menu_header {
-    width: 400px;
+    width: 500px;
     height: 60px;
-    background-color: #4ef261;
     float: right;
 }
 
+#menu_header ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#menu_header ul li {
+    display: inline;
+}
+
+#menu_header ul li a {
+    display: inline-block;
+    width: 100px;
+    height: 60px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#menu_header ul li a:hover {
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+
 #inicio {
-    height: 600px;
+    background-image: url(imagenes/inicio.jpg);
+    height: 660px;
     padding-top: 100px;
     background-color: #db6c2c;
 }
@@ -33,9 +68,9 @@ header {
 #txt_inicio {
     width: 700px;
     height: 400px;
+    border: 1px solid #fff;
     margin-left: auto;
     margin-right: auto;
-    background-color: #eded4c;
 }
 
 #sobre_mi {
@@ -47,13 +82,73 @@ header {
     height: 320px;
 }
 
-.caja_txt {
+.caja_txt_sup {
+    padding: 60px;
     background-color: #000;
+    color: #fff;
     float: left;
 }
 
-.caja_img {
-    background-color: #eee;
+.caja_txt_sup h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.caja_txt_sup p {
+    text-align: center;
+    font-size: 15px;
+}
+
+.caja_img_sup {
+    background-image: url(imagenes/marisa.jpg);
+    background-position: center;
+    float: left;
+}
+
+.caja_img_med {
+    background-image: url(imagenes/artesanias.jpg);
+    float: left;
+}
+
+.caja_txt_med {
+    padding: 60px;
+    background-color: #000;
+    color: #fff;
+    float: left;
+}
+
+.caja_txt_med h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.caja_txt_med p {
+    text-align: center;
+    font-size: 15px;
+}
+
+.caja_txt_inf {
+    padding: 60px;
+    background-color: #000;
+    color: #fff;
+    float: left;
+}
+
+.caja_txt_inf h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.caja_txt_inf p {
+    text-align: center;
+    font-size: 15px;
+}
+
+.caja_img_inf {
+    background-image: url(imagenes/tejidos.jpg);
     float: left;
 }
 
@@ -65,7 +160,8 @@ header {
 .titulos {
     width: 450px;
     height: 60px;
-    background-color: #4ef261;
+    text-align: center;
+    line-height: 60px;
     margin-left: auto;
     margin-right: auto;
 }
