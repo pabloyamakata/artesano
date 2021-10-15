@@ -1,11 +1,12 @@
-/* pastel rainbow Color Palette (color - hex) - paleta de colores temporal */
-
 * {
     box-sizing: border-box;
     scroll-behavior: smooth;
-    font-family: 'Didact Gothic', sans-serif;
     margin: 0;
     padding: 0;
+}
+
+body {
+    background-color: rgb(240,240,240);
 }
 
 header, section, footer {
@@ -17,20 +18,20 @@ header, section, footer {
 header {
     position: sticky;
     top: 0;
-    height: 60px;
-    background-color: #a8e6cf;
+    height: 50px;
+    background-color: rgb(35,35,35);
 }
 
 #logo_header {
     width: 230px;
-    height: 60px;
-    padding: 10px;
+    height: 50px;
+    padding: 5px 0px 5px 10px;
     float: left;
 }
 
 #logo_header img {
 
-    /* Resolución del logo = 500 x 98 => 500*0.4 = 200px y 98*0.4 = 39.2px */
+    /* Resolución original del logo = 500 x 98 => 500*0.4 = 200px y 98*0.4 = 39.2px */
 
     width: 200px;
     height: 39.2px;
@@ -38,7 +39,7 @@ header {
 
 #menu_header {
     width: 500px;
-    height: 60px;
+    height: 50px;
     float: right;
 }
 
@@ -55,23 +56,22 @@ header {
 #menu_header ul li a {
     display: inline-block;
     width: 100px;
-    height: 60px;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
     text-decoration: none;
     text-align: center;
-    line-height: 60px;
-    color: #000;
-    font-weight: bold;
+    line-height: 50px;
+    color: rgb(240,240,240);
 }
 
 #menu_header ul li a:hover {
-    background-color: #7ad3b2;
-    border-radius: 10px;
+    background-color: rgb(42,42,42);
 }
 
 #inicio {
     background-image: url(imagenes/inicio.jpg);
     height: 660px;
-    padding-top: 100px;
+    padding-top: 140px;
 }
 
 #txt_inicio {
@@ -80,49 +80,49 @@ header {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 40px;
-}
-
-#txt_inicio p {
-    color: #fff;
-    font-size: 70px;
+    padding-top: 70px;
 }
 
 #txt_inicio h1 {
-    color: #fff;
-    font-size: 80px;
+    color: rgb(255,240,219);
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
 }
 
 #txt_inicio h2 {
-    color: #fff;
-    font-size: 20px;
+    color: rgb(255,240,219);
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    margin-top: 15px;
 }
 
 #sobre_mi {
-    height: 960px;
+    height: 960px;   
 }
 
 #sobre_mi div {
     width: 480px;
     height: 320px;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(35,35,35);
 }
 
 .caja_txt_sup {
     padding: 60px;
-    background-color: #000;
-    color: #fff;
+    color: rgb(240,240,240);
     float: left;
 }
 
 .caja_txt_sup h2 {
     text-align: center;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .caja_txt_sup p {
+    margin-top: 20px;
     text-align: center;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .caja_img_sup {
@@ -138,38 +138,38 @@ header {
 
 .caja_txt_med {
     padding: 60px;
-    background-color: #000;
-    color: #fff;
+    color: rgb(240,240,240);
     float: left;
 }
 
 .caja_txt_med h2 {
     text-align: center;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .caja_txt_med p {
+    margin-top: 20px;
     text-align: center;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .caja_txt_inf {
     padding: 60px;
-    background-color: #000;
-    color: #fff;
+    color: rgb(240,240,240);
     float: left;
 }
 
 .caja_txt_inf h2 {
     text-align: center;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .caja_txt_inf p {
+    margin-top: 20px;
     text-align: center;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .caja_img_inf {
@@ -186,7 +186,10 @@ header {
 .titulos {
     width: 450px;
     height: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
     text-align: center;
+    text-decoration: underline;
     line-height: 60px;
     margin-left: auto;
     margin-right: auto;
@@ -230,7 +233,7 @@ header {
     height: 280px;
     margin-top: 60px;
     padding: 60px;
-    background-color:#dcedc1;
+    background-color: rgb(220,237,193);
     float: left;
 }
 
@@ -284,7 +287,7 @@ header {
     margin-top: 60px;
     padding: 60px;
     text-align: right;
-    background-color:#dcedc1;
+    background-color: rgb(220,237,193);
     float: right;
 }
 
@@ -313,7 +316,7 @@ header {
     width: 600px;
     height: 280px;
     margin-top: 60px;
-    background-color:#dcedc1;
+    background-color: rgb(220,237,193);
     float: left;
 }
 
