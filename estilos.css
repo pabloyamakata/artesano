@@ -97,7 +97,7 @@ header {
 }
 
 #sobre_mi {
-    height: 960px;   
+    height: 960px;
 }
 
 #sobre_mi div {
@@ -178,7 +178,6 @@ header {
 }
 
 .productos {
-    background-color:#ffdbac;
     height: 1550px;
     padding-top: 60px;
 }
@@ -186,17 +185,16 @@ header {
 .titulos {
     width: 450px;
     height: 60px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 32px;
     text-align: center;
-    text-decoration: underline;
     line-height: 60px;
     margin-left: auto;
     margin-right: auto;
 }
 
 #artesanias {
-    background-color:#ffaaa5;
+    background-color:rgb(85,158,131);
 }
 
 .img_art {
@@ -204,7 +202,7 @@ header {
     height: 280px;
     margin-top: 60px;
     margin-left: 40px;
-    background-color: #b33941;
+    border-radius: 10px; 
     float: left;
 }
 
@@ -234,19 +232,23 @@ header {
     margin-top: 60px;
     padding: 60px;
     background-color: rgb(220,237,193);
+    border-radius: 10px; 
     float: left;
 }
 
 .txt_art h4 {
-    font-size: 20px;
-}
-
-.txt_art p {
+    font-family: 'Poppins', sans-serif;
     font-size: 15px;
 }
 
+.txt_art p {
+    margin-top: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;   
+}
+
 #tejidos {
-    background-color: #ffaaa5;
+    background-color: rgb(255,170,165);
 }
 
 .img_tej {
@@ -254,7 +256,7 @@ header {
     height: 280px;
     margin-top: 60px;
     margin-right: 40px;
-    background-color: #b33941;
+    border-radius: 10px; 
     float: right;
 }
 
@@ -288,19 +290,23 @@ header {
     padding: 60px;
     text-align: right;
     background-color: rgb(220,237,193);
+    border-radius: 10px; 
     float: right;
 }
 
 .txt_tej h4 {
-    font-size: 20px;
-}
-
-.txt_tej p {
+    font-family: 'Poppins', sans-serif;
     font-size: 15px;
 }
 
+.txt_tej p {
+    margin-top: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px; 
+}
+
 #pinturas {
-    background-color: #ffaaa5;
+    background-color:rgb(85,158,131);
 }
 
 .img_pint {
@@ -308,7 +314,6 @@ header {
     height: 280px;
     margin-top: 60px;
     margin-left: 40px;
-    background-color: #b33941;
     float: left;
 }
 
