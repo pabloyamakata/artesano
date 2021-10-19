@@ -347,3 +347,207 @@ footer {
     background-color: #d6532b;
 }
 
+@media all and (max-width: 599px) {
+
+    header, section, footer {
+        width: 90%;
+    }
+    
+    header {
+        position: relative;
+    }
+    
+    #logo_header {
+        width: 150px;
+        height: auto;
+        padding: 10px 0 5px 10px;
+        float: none;
+    }
+    
+    #logo_header img {
+        width: 100%;
+        height: auto;
+    }
+    
+    #menu_header {
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+    
+    #menu_header ul li {
+        display: block;
+    }
+    
+    #menu_header ul li a {
+        width: 100%;
+        height: auto;
+    }
+    
+    #inicio {
+        height: 100vh; 
+        padding-top: 15%;
+        background-image: none;
+        background-color: rgb(133,68,66);
+    }
+
+    #txt_inicio {
+        width: 90%;
+        height: auto;
+        padding-top: 10%;
+    }
+    
+    #txt_inicio h1 {
+        font-size: 80px;
+        color: rgb(240,240,240);
+    }
+    
+    #txt_inicio h2 {
+        font-size: 20px;
+        color: rgb(240,240,240);
+    }
+    
+    #sobre_mi {
+        height: auto
+    }
+    
+    #sobre_mi div {
+        width: 100%;
+        height: auto;
+    }
+    
+    .caja_txt_sup {
+        padding: 35px;
+        float: none;
+    }
+    
+    .caja_txt_sup p {
+        margin-top: 20px;
+    }
+    
+    #sobre_mi .caja_img_sup {
+        height: 280px;
+        background-position: left 35%;
+        float: none;
+    }
+    
+    .caja_img_med {
+        display: none;
+    }
+    
+    .caja_txt_med {
+        padding: 35px;
+        float: none;
+    }
+    
+    .caja_txt_med p {
+        margin-top: 20px;
+    }
+    
+    .caja_txt_inf {
+        padding: 35px;
+        float: none;
+    }
+    
+    .caja_txt_inf p {
+        margin-top: 20px;
+    }
+    
+    .caja_img_inf {
+        display: none;
+    }
+
+    .productos {
+        padding: 50px 0 15px 0;
+        height: auto;
+    }
+    
+    .titulos {
+        width: 100%;
+        height: auto;
+        font-size: 30px;    
+    }
+    
+    .img_art {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+    
+    .txt_art {
+        width: 90%;
+        height: auto;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 30px;
+        text-align: center; 
+        float: none;
+    }
+    
+    .txt_art p {
+        margin-top: 10px;  
+    }
+    
+    .img_tej {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+    
+    .txt_tej {
+        width: 90%;
+        height: auto;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 30px;
+        text-align: center; 
+        float: none;
+    }
+    
+    .txt_tej p {
+        margin-top: 10px;
+    }
+    
+    .img_pint {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto; 
+        float: none;
+    }
+    
+    .txt_pint {
+        width: 90%;
+        height: auto;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 30px;
+        text-align: center; 
+        float: none;
+    }
+    
+    footer {
+        height: auto;
+        padding-top: 40px;
+    }
+    
+    #contacto {
+        width: 100%;
+        height: 70px;
+    }
+    
+    #legal {
+        width: 100%;
+        height: 80px;
+    }
+
+} /* Fin @media Max-Width: 599px */
+
+@media all and (min-width: 600px) and (max-width:1023px) {
+    
+}
+
