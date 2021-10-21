@@ -29,6 +29,10 @@ header {
     float: left;
 }
 
+#logo_header .titulo_header {
+    display: none;
+}
+
 #logo_header img {
 
     /* Resolución original del logo = 500 x 98 => 500*0.4 = 200px y 98*0.4 = 39.2px */
@@ -426,12 +430,13 @@ footer {
     }
     
     #sobre_mi .caja_img_sup {
-        height: 280px;
-        background-position: left 35%;
+        height: 320px;
+        background-position: left 40%;
+        background-size: cover;
         float: none;
     }
     
-    .caja_img_med {
+    #sobre_mi .caja_img_med {
         display: none;
     }
     
@@ -445,15 +450,10 @@ footer {
     }
     
     .caja_txt_inf {
-        padding: 35px;
-        float: none;
+        display: none;
     }
     
-    .caja_txt_inf p {
-        margin-top: 20px;
-    }
-    
-    .caja_img_inf {
+    #sobre_mi .caja_img_inf {
         display: none;
     }
 
@@ -549,5 +549,241 @@ footer {
 
 @media all and (min-width: 600px) and (max-width:1023px) {
     
-}
+    header, section, footer {
+        width: 580px;
+    }
+    
+    #logo_header {
+        width: 107px;
+        margin-left: 20px;
+        padding: 0;
+        background-image: none;
+    }
+
+    #logo_header .titulo_header {
+        display: block;
+        line-height: 46px;
+        font-family: 'Alice', serif;
+        font-size: 24px;
+        color: rgb(240,240,240);
+    }
+    
+    #logo_header img {
+        display: none;
+    }
+    
+    #menu_header {
+        width: 375px;
+    }
+    
+    #menu_header ul li a {
+        width: 70px;
+        font-size: 13px;
+    }
+
+    #inicio {
+        height: 100vh;
+        background-position: center;
+        background-size: cover; 
+    }
+    
+    #txt_inicio {
+        width: 580px;
+        height: 400px;
+        padding-top: 0;
+    }
+    
+    #sobre_mi {
+        height: 1170px;
+    }
+    
+    #sobre_mi div {
+        width: 290px;
+        height: 390px;
+    }
+    
+    .caja_txt_sup {
+        padding: 30px 40px 30px;
+    }
+    
+    .caja_txt_sup h2 {
+        font-size: 20px;
+    }
+    
+    .caja_txt_sup p {
+        font-size: 15px;
+    }
+    
+    .caja_img_sup {
+        background-position: left 60%;
+    }
+    
+    .caja_img_med {
+       background-position: 96% 0;
+       background-size: cover;
+    }
+    
+    .caja_txt_med {
+        padding: 30px 40px 30px;
+    }
+    
+    .caja_txt_med h2 {
+        font-size: 20px;
+    }
+    
+    .caja_txt_med p {
+        font-size: 15px;
+    }
+    
+    .caja_txt_inf {
+        padding: 30px 40px 30px;
+    }
+    
+    .caja_txt_inf h2 {
+        font-size: 20px;
+    }
+    
+    .caja_txt_inf p {
+        font-size: 15px;
+    }
+    
+    .caja_img_inf {
+        background-image: url(imagenes/tejidos.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .productos {
+        height: 2740px;
+        padding-top: 50px;
+    }
+    
+    .img_art {
+        width: 540px;
+        height: 370px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 0;
+        float: none;
+    }
+    
+    .img_art_1 {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .img_art_2 {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    
+    .img_art_3 {
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: contain;
+    }
+    
+    .img_art_4 {
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: contain;
+    }
+    
+    .txt_art {
+        width: 540px;
+        height: 200px;
+        margin-top: 20px;
+        padding: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 0;
+        float: none;
+    }
+    
+    .txt_art h4 {
+        font-size: 20px;
+    }
+    
+    .txt_art p {
+        font-size: 15px;   
+    }
+    
+    .img_tej {
+        width: 540px;
+        height: 370px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 0;
+        float: none;
+    }
+
+    .img_tej_1 {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .img_tej_2 {
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .img_tej_3 {
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .img_tej_4 {
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+     
+    
+    .txt_tej {
+        width: 540px;
+        height: 200px;
+        margin-top: 20px;
+        padding: 20px;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 0;
+        float: none;
+    }
+    
+    .txt_tej h4 {
+        font-size: 20px;
+    }
+    
+    .txt_tej p {
+        font-size: 15px; 
+    }
+    
+    .img_pint {
+        width: 540px;
+        height: 370px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 0;
+        float: none;
+    }
+
+    .txt_pint {
+        width: 540px;
+        height: 200px;
+        margin-top: 20px;
+        padding: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+    
+    #legal {
+        width: 580px;
+    }
+
+} /* Fin @media Min-Width: 600px y Max-Width: 1023px */
 
