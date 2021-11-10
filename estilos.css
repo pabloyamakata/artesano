@@ -41,6 +41,14 @@ header {
     height: 39.2px;
 }
 
+#btn-abrir {
+    display: none;
+}
+
+#btn-cerrar {
+    display: none;
+}
+
 #menu_header {
     width: 500px;
     height: 50px;
@@ -309,11 +317,12 @@ header {
     font-size: 13px; 
 }
 
-#pinturas {
+#cursos {
+    height: 1550px;
     background-color:rgb(85,158,131);
 }
 
-.img_pint {
+.img_cursos {
     width: 280px;
     height: 280px;
     margin-top: 60px;
@@ -321,7 +330,7 @@ header {
     float: left;
 }
 
-.txt_pint {
+.txt_cursos {
     width: 600px;
     height: 280px;
     margin-top: 60px;
@@ -357,10 +366,6 @@ footer {
         width: 90%;
     }
     
-    header {
-        position: relative;
-    }
-    
     #logo_header {
         width: 150px;
         height: auto;
@@ -372,11 +377,26 @@ footer {
         width: 100%;
         height: auto;
     }
+
+    #btn-abrir {
+        display: block;
+        float: right;
+        margin-top: 15px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+
+    .fa-bars {
+        font-size: 20px;
+        color: rgb(255,240,219);
+    }
     
     #menu_header {
         width: 100%;
         height: auto;
         float: none;
+        display: none;
+        background-color: rgb(35,35,35);
     }
     
     #menu_header ul li {
@@ -511,15 +531,19 @@ footer {
     .txt_tej p {
         margin-top: 10px;
     }
-    
-    .img_pint {
+
+    #cursos {
+        height: auto;
+    }
+
+    .img_cursos {
         width: 90%;
         margin-left: auto;
         margin-right: auto; 
         float: none;
     }
     
-    .txt_pint {
+    .txt_cursos {
         width: 90%;
         height: auto;
         margin-top: 10px;
@@ -761,8 +785,12 @@ footer {
     .txt_tej p {
         font-size: 15px; 
     }
+
+    #cursos {
+        height: 2740px;
+    }
     
-    .img_pint {
+    .img_cursos {
         width: 540px;
         height: 370px;
         margin-left: auto;
@@ -771,7 +799,7 @@ footer {
         float: none;
     }
 
-    .txt_pint {
+    .txt_cursos {
         width: 540px;
         height: 200px;
         margin-top: 20px;
