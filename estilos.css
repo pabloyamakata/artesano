@@ -50,7 +50,7 @@ header {
 }
 
 #menu_header {
-    width: 500px;
+    width: 600px;
     height: 50px;
     float: right;
 }
@@ -82,6 +82,9 @@ header {
 
 #inicio {
     background-image: url(imagenes/inicio.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 660px;
     padding-top: 140px;
 }
@@ -99,12 +102,15 @@ header {
     color: rgb(255,240,219);
     font-family: 'Dancing Script', cursive;
     font-size: 100px;
+    font-weight: 400;
+    margin-bottom: 40px;
 }
 
 #txt_inicio h2 {
     color: rgb(255,240,219);
     font-family: 'Poppins', sans-serif;
     font-size: 25px;
+    font-weight: bold;
     margin-top: 15px;
 }
 
@@ -129,12 +135,14 @@ header {
     text-align: center;
     text-transform: uppercase;
     font-size: 15px;
+    font-weight: bold;
 }
 
 .caja_txt_sup p {
-    margin-top: 20px;
+    margin-top: 30px;
     text-align: center;
     font-size: 13px;
+    line-height: 20px;
 }
 
 .caja_img_sup {
@@ -158,12 +166,14 @@ header {
     text-align: center;
     text-transform: uppercase;
     font-size: 15px;
+    font-weight: bold;
 }
 
 .caja_txt_med p {
-    margin-top: 20px;
+    margin-top: 30px;
     text-align: center;
     font-size: 13px;
+    line-height: 20px;
 }
 
 .caja_txt_inf {
@@ -176,12 +186,14 @@ header {
     text-align: center;
     text-transform: uppercase;
     font-size: 15px;
+    font-weight: bold;
 }
 
 .caja_txt_inf p {
-    margin-top: 20px;
+    margin-top: 30px;
     text-align: center;
     font-size: 13px;
+    line-height: 20px;
 }
 
 .caja_img_inf {
@@ -198,11 +210,15 @@ header {
     width: 450px;
     height: 60px;
     font-family: 'Dancing Script', cursive;
-    font-size: 32px;
     text-align: center;
     line-height: 60px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.titulos h3 {
+    font-size: 32px;
+    font-weight: bold;
 }
 
 #artesanias {
@@ -227,15 +243,21 @@ header {
 .img_art_2 {
     background-image: url(imagenes/maceta_potter.jpg);
     background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 .img_art_3 {
     background-image: url(imagenes/marco_vitro.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 .img_art_4 {
     background-image: url(imagenes/colibri_vitro.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .txt_art {
@@ -251,12 +273,14 @@ header {
 .txt_art h4 {
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
+    font-weight: bold;
 }
 
 .txt_art p {
-    margin-top: 12px;
+    margin-top: 20px;
     font-family: 'Poppins', sans-serif;
     font-size: 13px;   
+    line-height: 20px;
 }
 
 #tejidos {
@@ -309,55 +333,147 @@ header {
 .txt_tej h4 {
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
+    font-weight: bold;
 }
 
 .txt_tej p {
-    margin-top: 12px;
+    margin-top: 20px;
     font-family: 'Poppins', sans-serif;
     font-size: 13px; 
+    line-height: 20px;
 }
 
-#cursos {
+#contacto {
+    height: 800px;
+    background-color: rgb(255,170,165);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#container_bootstrap {
+    padding-top: 30px;
+}
+
+#col_1_first {
+    height: 400px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.no_redimensionable {
+    resize: none;
+}
+
+#btn_ancho {
+    width: 50%;
+    margin-left: 25%;
+}
+
+#mod_contacto_2 {
+    height: 200px;
+}
+
+#col_1_sec {
+    padding: 35px 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#parrafo_contacto {
+    font-size: 18px;
+}
+
+.fa-facebook {
+    font-size: 35px;
+}
+
+.fa-instagram {
+    font-size: 35px;
+}
+
+.fa-whatsapp {
+    font-size: 35px;
+}
+
+#pinturas {
     height: 1550px;
     background-color:rgb(85,158,131);
 }
 
-.img_cursos {
+.img_pint {
     width: 280px;
     height: 280px;
     margin-top: 60px;
     margin-left: 40px;
+    border-radius: 10px; 
     float: left;
 }
 
-.txt_cursos {
+.img_pint_1 {
+    background-image: url(imagenes/ola_azul.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.img_pint_2 {
+    background-image: url(imagenes/flores_violetas.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.img_pint_3 {
+    background-image: url(imagenes/gran_ocaso.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.img_pint_4 {
+    background-image: url(imagenes/flores_blancas.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.txt_pint {
     width: 600px;
     height: 280px;
     margin-top: 60px;
+    padding: 60px;
     background-color: rgb(220,237,193);
+    border-radius: 10px; 
     float: left;
 }
 
-footer {
-    height: 200px;
-    padding-top: 40px;
-    background-color: #000;
+.txt_pint h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
 }
 
-#contacto {
-    width: 300px;
+.txt_pint p {
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;   
+    line-height: 20px;
+}
+
+footer {
     height: 60px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #86e67c;
 }
 
 #legal {
-    width: 900px;
+    width: 960px;
     height: 60px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #d6532b;
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: rgba(35, 35, 35, 1);
+    color: rgb(240,240,240);
+}
+
+.fa-copyright {
+    margin-right: 5px;
+}
+
+#legal p {
+    display: inline-block;
 }
 
 @media all and (max-width: 599px) {
@@ -411,8 +527,9 @@ footer {
     #inicio {
         height: 100vh; 
         padding-top: 15%;
-        background-image: none;
-        background-color: rgb(133,68,66);
+        background-image: url(imagenes/inicio.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
     }
 
     #txt_inicio {
@@ -532,18 +649,48 @@ footer {
         margin-top: 10px;
     }
 
-    #cursos {
+    #contacto {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #btn_ancho {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #col_1_sec {
+        padding: 20px 10px;
+    }
+
+    #parrafo_contacto {
+        font-size: 16px;
+    }
+
+    .fa-facebook {
+        font-size: 30px;
+    }
+    
+    .fa-instagram {
+        font-size: 30px;
+    }
+    
+    .fa-whatsapp {
+        font-size: 30px;
+    }
+
+    #pinturas {
         height: auto;
     }
 
-    .img_cursos {
+    .img_pint {
         width: 90%;
         margin-left: auto;
         margin-right: auto; 
         float: none;
     }
     
-    .txt_cursos {
+    .txt_pint {
         width: 90%;
         height: auto;
         margin-top: 10px;
@@ -556,17 +703,11 @@ footer {
     
     footer {
         height: auto;
-        padding-top: 40px;
-    }
-    
-    #contacto {
-        width: 100%;
-        height: 70px;
     }
     
     #legal {
         width: 100%;
-        height: 80px;
+        height: auto;
     }
 
 } /* Fin @media Max-Width: 599px */
@@ -597,7 +738,7 @@ footer {
     }
     
     #menu_header {
-        width: 375px;
+        width: 430px;
     }
     
     #menu_header ul li a {
@@ -765,7 +906,6 @@ footer {
         background-repeat: no-repeat;
     }
      
-    
     .txt_tej {
         width: 540px;
         height: 200px;
@@ -786,11 +926,11 @@ footer {
         font-size: 15px; 
     }
 
-    #cursos {
+    #pinturas {
         height: 2740px;
     }
     
-    .img_cursos {
+    .img_pint {
         width: 540px;
         height: 370px;
         margin-left: auto;
@@ -799,7 +939,7 @@ footer {
         float: none;
     }
 
-    .txt_cursos {
+    .txt_pint {
         width: 540px;
         height: 200px;
         margin-top: 20px;
@@ -809,8 +949,13 @@ footer {
         float: none;
     }
     
+    footer {
+        height: auto;
+    }
+    
     #legal {
-        width: 580px;
+        width: 100%;
+        height: auto;
     }
 
 } /* Fin @media Min-Width: 600px y Max-Width: 1023px */
