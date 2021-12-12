@@ -15,10 +15,19 @@ header, section, footer {
     margin-right: auto;
 }
 
+.text-poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.my-font-size {
+    font-size: 13px;
+}
+
 header {
     position: sticky;
     top: 0;
     height: 50px;
+    z-index: 200;
     background-color: rgb(35,35,35);
 }
 
@@ -369,16 +378,19 @@ header {
 }
 
 #mod_contacto_2 {
-    height: 200px;
+    height: 150px;
+    margin-top: 75px;
 }
 
 #col_1_sec {
-    padding: 35px 30px;
+    padding-left: 30px;
+    padding-right: 30px;
     font-family: 'Poppins', sans-serif;
 }
 
 #parrafo_contacto {
-    font-size: 18px;
+    font-size: 16px;
+    margin-bottom: 0;
 }
 
 .fa-facebook {
@@ -454,17 +466,46 @@ header {
     line-height: 20px;
 }
 
-footer {
-    height: 60px;
+.footer_mod1 {
+    background-color: rgba(35, 35, 35, 1);
+}
+
+.contenedor_descripcion img {
+    width: 120px;
+    height: 23.52px;
+    margin-bottom: 10px;
+}
+
+.descripcion_negocio {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    color: rgba(240, 240, 240, 1);
+}
+
+.columna_correo .contenedor_correo p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    color: rgba(240, 240, 240, 1);
+}
+
+.columna_correo .contenedor_correo p .map-marker {
+    margin-right: 10px;
+}
+
+.fa-envelope {
+    color: rgba(240, 240, 240, 1);
+    margin-right: 10px;
+    font-size: 16px;
 }
 
 #legal {
     width: 960px;
-    height: 60px;
-    padding-top: 20px;
+    height: auto;
+    padding-top: 18px;
     font-family: 'Poppins', sans-serif;
+    font-size: 13px;
     text-align: center;
-    background-color: rgba(35, 35, 35, 1);
+    background-color: rgba(20, 20, 20, 1);
     color: rgb(240,240,240);
 }
 
@@ -618,7 +659,7 @@ footer {
         margin-top: 10px;
         margin-left: auto;
         margin-right: auto;
-        padding: 30px;
+        padding: 30px 30px 50px;
         text-align: center; 
         float: none;
     }
@@ -640,7 +681,7 @@ footer {
         margin-top: 10px;
         margin-left: auto;
         margin-right: auto;
-        padding: 30px;
+        padding: 30px 30px 50px;
         text-align: center; 
         float: none;
     }
@@ -657,6 +698,10 @@ footer {
     #btn_ancho {
         width: 100%;
         margin-left: 0;
+    }
+
+    #mod_contacto_2 {
+        margin-top: 40px;
     }
 
     #col_1_sec {
@@ -696,7 +741,7 @@ footer {
         margin-top: 10px;
         margin-left: auto;
         margin-right: auto;
-        padding: 30px;
+        padding: 30px 30px 50px;
         text-align: center; 
         float: none;
     }
@@ -819,7 +864,7 @@ footer {
     }
     
     .productos {
-        height: 2740px;
+        height: 2850px;
         padding-top: 50px;
     }
     
@@ -857,12 +902,11 @@ footer {
     
     .txt_art {
         width: 540px;
-        height: 200px;
+        height: 230px;
         margin-top: 20px;
         padding: 20px;
         margin-left: auto;
         margin-right: auto;
-        border-radius: 0;
         float: none;
     }
     
@@ -908,13 +952,12 @@ footer {
      
     .txt_tej {
         width: 540px;
-        height: 200px;
+        height: 230px;
         margin-top: 20px;
         padding: 20px;
         text-align: left;
         margin-left: auto;
         margin-right: auto;
-        border-radius: 0;
         float: none;
     }
     
@@ -927,7 +970,7 @@ footer {
     }
 
     #pinturas {
-        height: 2740px;
+        height: 2850px;
     }
     
     .img_pint {
@@ -941,12 +984,16 @@ footer {
 
     .txt_pint {
         width: 540px;
-        height: 200px;
+        height: 230px;
         margin-top: 20px;
         padding: 20px;
         margin-left: auto;
         margin-right: auto;
         float: none;
+    }
+
+    #col_1_sec {
+        margin-bottom: 20px;
     }
     
     footer {
