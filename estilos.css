@@ -257,7 +257,7 @@ header {
 }
 
 .img_art_3 {
-    background-image: url(imagenes/marco_vitro.jpg);
+    background-image: url(imagenes/sol_falso_vitral.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -318,7 +318,8 @@ header {
 }
 
 .img_tej_3 {
-    background-image: url(imagenes/sueter_capucha.jpg);
+    background-image: url(imagenes/poncho_crochet.jpg);
+    background-position: center;
     background-size: cover;
 }
 
