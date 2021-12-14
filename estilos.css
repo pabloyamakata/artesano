@@ -264,8 +264,9 @@ header {
 }
 
 .img_art_4 {
-    background-image: url(imagenes/colibri_vitro.jpg);
+    background-image: url(imagenes/suncatcher_pato.jpg);
     background-size: cover;
+    background-position: center center;
     background-repeat: no-repeat;
 }
 
@@ -318,7 +319,7 @@ header {
 }
 
 .img_tej_3 {
-    background-image: url(imagenes/poncho_crochet.jpg);
+    background-image: url(imagenes/cardigan_crochet.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -326,6 +327,7 @@ header {
 .img_tej_4 {
     background-image: url(imagenes/bufanda.jpg);
     background-size: cover;
+    background-position: center;
 }
  
 
