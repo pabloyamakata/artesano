@@ -814,34 +814,6 @@ header {
     header, section, footer {
         width: 580px;
     }
-    
-    /* #logo_header {
-        width: 107px;
-        margin-left: 20px;
-        padding: 0;
-        background-image: none;
-    } */
-
-    /* #logo_header .titulo_header {
-        display: block;
-        line-height: 46px;
-        font-family: 'Alice', serif;
-        font-size: 24px;
-        color: rgb(240,240,240);
-    } */
-    
-    /* #logo_header img {
-        display: none;
-    } */
-    
-    /*#menu_header {
-        width: 430px;
-    }
-    
-    #menu_header ul li a {
-        width: 70px;
-        font-size: 13px;
-    }*/
 
     #btn-abrir {
         display: block;
