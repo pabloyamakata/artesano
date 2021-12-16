@@ -23,6 +23,10 @@ header, section, footer {
     font-size: 13px;
 }
 
+.btn_margin_end {
+    margin-right: 60px;
+}
+
 header {
     position: sticky;
     top: 0;
@@ -528,6 +532,11 @@ header {
 
 @media all and (max-width: 599px) {
 
+    .btn_margin_end {
+        /* Margen derecho para botón modal de los divs con descripción del producto en vista mobile. */
+        margin-right: 24px;
+    }
+
     header, section, footer {
         width: 90%;
     }
@@ -796,37 +805,72 @@ header {
 } /* Fin @media Max-Width: 599px */
 
 @media all and (min-width: 600px) and (max-width:1023px) {
+
+    .btn_margin_end {
+        /* Margen derecho para botón modal de los divs con descripción del producto en vista tablet. */
+        margin-right: 24px;
+    }
     
     header, section, footer {
         width: 580px;
     }
     
-    #logo_header {
+    /* #logo_header {
         width: 107px;
         margin-left: 20px;
         padding: 0;
         background-image: none;
-    }
+    } */
 
-    #logo_header .titulo_header {
+    /* #logo_header .titulo_header {
         display: block;
         line-height: 46px;
         font-family: 'Alice', serif;
         font-size: 24px;
         color: rgb(240,240,240);
-    }
+    } */
     
-    #logo_header img {
+    /* #logo_header img {
         display: none;
-    }
+    } */
     
-    #menu_header {
+    /*#menu_header {
         width: 430px;
     }
     
     #menu_header ul li a {
         width: 70px;
         font-size: 13px;
+    }*/
+
+    #btn-abrir {
+        display: block;
+        float: right;
+        margin-top: 15px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+
+    .fa-bars {
+        font-size: 20px;
+        color: rgb(255,240,219);
+    }
+    
+    #menu_header {
+        width: 100%;
+        height: auto;
+        float: none;
+        display: none;
+        background-color: rgb(35,35,35);
+    }
+    
+    #menu_header ul li {
+        display: block;
+    }
+    
+    #menu_header ul li a {
+        width: 100%;
+        height: auto;
     }
 
     #inicio {
@@ -851,15 +895,15 @@ header {
     }
     
     .caja_txt_sup {
-        padding: 30px 40px 30px;
+        padding: 55px 40px 30px;
     }
     
     .caja_txt_sup h2 {
-        font-size: 20px;
+        font-size: 15px;
     }
     
     .caja_txt_sup p {
-        font-size: 15px;
+        font-size: 13px;
     }
     
     .caja_img_sup {
@@ -872,27 +916,27 @@ header {
     }
     
     .caja_txt_med {
-        padding: 30px 40px 30px;
+        padding: 55px 40px 30px;
     }
     
     .caja_txt_med h2 {
-        font-size: 20px;
+        font-size: 15px;
     }
     
     .caja_txt_med p {
-        font-size: 15px;
+        font-size: 13px;
     }
     
     .caja_txt_inf {
-        padding: 30px 40px 30px;
+        padding: 55px 40px 30px;
     }
     
     .caja_txt_inf h2 {
-        font-size: 20px;
+        font-size: 15px;
     }
     
     .caja_txt_inf p {
-        font-size: 15px;
+        font-size: 13px;
     }
     
     .caja_img_inf {
@@ -955,7 +999,8 @@ header {
     }
     
     .txt_art p {
-        font-size: 15px;   
+        font-size: 15px; 
+        margin-top: 10px;  
     }
     
     .img_tej {
@@ -1009,6 +1054,7 @@ header {
     
     .txt_tej p {
         font-size: 15px; 
+        margin-top: 10px;
     }
 
     #pinturas {
@@ -1034,6 +1080,15 @@ header {
         margin-left: auto;
         margin-right: auto;
         float: none;
+    }
+
+    .txt_pint h4 {
+        font-size: 20px;
+    }
+
+    .txt_pint p {
+        font-size: 15px;
+        margin-top: 10px;
     }
 
     #col_1_sec {
