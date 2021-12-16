@@ -599,6 +599,8 @@ header {
     }
     
     #sobre_mi {
+        display: flex;
+        flex-direction: column;
         height: auto
     }
     
@@ -608,6 +610,7 @@ header {
     }
     
     .caja_txt_sup {
+        order: 1;
         padding: 35px;
         float: none;
     }
@@ -617,6 +620,7 @@ header {
     }
     
     #sobre_mi .caja_img_sup {
+        order: 2;
         height: 320px;
         background-position: left 40%;
         background-size: cover;
@@ -624,10 +628,14 @@ header {
     }
     
     #sobre_mi .caja_img_med {
-        display: none;
+        order: 4;
+        height: 320px;
+        background-position: right center;
+        float: none;
     }
     
     .caja_txt_med {
+        order: 3;
         padding: 35px;
         float: none;
     }
@@ -637,11 +645,17 @@ header {
     }
     
     .caja_txt_inf {
-        display: none;
+        order: 5;
+        padding: 35px;
+        float: none;
     }
     
     #sobre_mi .caja_img_inf {
-        display: none;
+        order: 6;
+        height: 320px;
+        background-position: center;
+        background-size: cover;
+        float: none;
     }
 
     .productos {
