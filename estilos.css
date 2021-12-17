@@ -918,13 +918,13 @@ header {
     }
     
     .productos {
-        height: 2570px;
+        height: 3265px;
         padding-top: 50px;
     }
     
     .img_art {
         width: 470px;
-        height: 300px;
+        height: 470px;
         margin-left: auto;
         margin-right: auto;
         border-radius: 40px 40px 0 0;
@@ -975,12 +975,12 @@ header {
     }
 
     #tejidos {
-        height: 2570px;
+        height: 3380px;
     }
     
     .img_tej {
         width: 470px;
-        height: 300px;
+        height: 500px;
         margin-left: auto;
         margin-right: auto;
         border-radius: 40px 40px 0 0;
@@ -1032,12 +1032,12 @@ header {
     }
 
     #pinturas {
-        height: 2850px;
+        height: 3260px;
     }
     
     .img_pint {
         width: 470px;
-        height: 370px;
+        height: 470px;
         margin-left: auto;
         margin-right: auto;
         border-radius: 40px 40px 0 0;
