@@ -1,6 +1,6 @@
 # Promotional Website
 
-Its aim is to advertise crafts, paintings and fabrics offered by the client. Includes responsive design using media queries and Bootstrap's grid system
+Its aim is to advertise handicrafts, paintings and fabrics offered by the client. Includes responsive design using media queries and Bootstrap's grid system
 
 The technologies used in this project are:
 
